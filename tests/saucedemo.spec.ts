@@ -1,11 +1,11 @@
 import { test, expect } from "@playwright/test";
-import { LoginPage } from "../pages/loginPage";
-import { ProductsPage } from "../pages/productsPage";
-import { CartPage } from "../pages/cartPage";
-import { CheckoutPage } from "../pages/checkoutPage";
-import { OverviewPage } from "../pages/overviewPage";
-import { StandardUser } from "../models/user";
-import { TestData } from "../utils/testData";
+import { LoginPage } from "../src/pages/loginPage";
+import { ProductsPage } from "../src/pages/productsPage";
+import { CartPage } from "../src/pages/cartPage";
+import { CheckoutPage } from "../src/pages/checkoutPage";
+import { OverviewPage } from "../src/pages/overviewPage";
+import { StandardUser } from "../src/models/user";
+import { TestData } from "../src/utils/testData";
 
 test.describe("SauceDemo E2E Tests", () => {
   let loginPage: LoginPage;

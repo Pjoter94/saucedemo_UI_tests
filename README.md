@@ -16,10 +16,9 @@ This project contains automated UI tests for the [SauceDemo](https://www.saucede
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/saucedemo_UI_tests.git
+git clone https://github.com/Pjoter94/saucedemo_UI_tests.git
 cd saucedemo_UI_tests
 npm install
-npx playwright install
 ```
 
 ## Running Tests
@@ -36,8 +35,9 @@ npx playwright path/to/testfile.ts
 .
 ├── src/
 │   ├── pages/        # Page Object Models
-│   ├── tests/        # Test cases
+│   ├── models/       # Data models and type definitions
 │   └── utils/        # Utilities and helpers
+├── tests/        # Test cases
 ├── package.json
 ├── tsconfig.json
 └── README.md
